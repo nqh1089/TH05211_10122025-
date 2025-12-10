@@ -1,4 +1,3 @@
-
 name: Java CI
 
 
@@ -25,3 +24,15 @@ jobs:
       - name: Build and Test
         run: mvn -B package
 
+
+# Cách hoạt động của file này:
+# 1. Khi có một lần đẩy (push) hoặc yêu cầu kéo (pull request) vào nhánh "master", workflow này sẽ được kích hoạt.
+# 2. Nó sẽ chạy trên môi trường Ubuntu mới nhất.
+# 3. Bước đầu tiên là kiểm tra mã nguồn từ kho lưu trữ.
+# 4. Tiếp theo, nó sẽ thiết lập JDK phiên bản 17 sử dụng Temurin và bật bộ nhớ đệm Maven để tăng tốc quá trình xây dựng.
+# 5. Cuối cùng, nó sẽ chạy lệnh Maven để xây dựng và kiểm tra dự án.
+
+# Lệnh git để thêm file này vào kho lưu trữ:
+# git add .github/workflows/main.yml
+# git commit -m "Add GitHub Actions workflow for Java CI"
+# git push origin master

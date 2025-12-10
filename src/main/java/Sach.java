@@ -56,30 +56,5 @@ public class Sach {
     public void setGia(float gia) {
         this.gia = gia;
     }
-
-    @Override
-    public String toString() {
-        return "Sach{" +
-                "maSach='" + maSach + '\'' +
-                ", tenSach='" + tenSach + '\'' +
-                ", tacGia='" + tacGia + '\'' +
-                ", namXuatBan=" + namXuatBan +
-                ", gia=" + gia +
-                '}';
-    }
 }
-
-
-//
-//      #1
-//              #        git init
-//      #        git remote add origin [URL_REPO]
-//        #        git add .
-//        #        git commit -m "KhoiTao"
-//        #        git push -u origin master
-//
-//      #2
-//              #       git add .github/workflows/main.yml
-//      #       git commit -m "Add CI workflow"
-//        #       git push origi master
 
