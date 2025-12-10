@@ -68,3 +68,18 @@ public class Sach {
                 '}';
     }
 }
+
+
+//
+//      #1
+//              #        git init
+//      #        git remote add origin [URL_REPO]
+//        #        git add .
+//        #        git commit -m "KhoiTao"
+//        #        git push -u origin master
+//
+//      #2
+//              #       git add .github/workflows/main.yml
+//      #       git commit -m "Add CI workflow"
+//        #       git push origi master
+
